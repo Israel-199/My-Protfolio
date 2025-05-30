@@ -29,7 +29,7 @@ const Projects = () => {
         "Personal portfolio website to showcase my skills and projects.",
       image: "assets/images/Pf.png",
       tags: ["React", "Tailwind", "vite", "JSX"],
-      github: "https://github.com/yonathan001/React-Portfolio",
+      github: "https://github.com/Israel-199/My-Protfolio",
       demo: "#",
     },
   ];
