@@ -1,17 +1,7 @@
 import { FiDownload } from "react-icons/fi";
 import { motion } from "framer-motion";
-
+import resume from "../assets/Israel-Resume.pdf";
 const Hero = () => {
-  const handleDownloadCV = () => {
-    const cvUrl = "assets/yonathan-resume.pdf";
-    const link = document.createElement("a");
-    link.href = cvUrl;
-    link.download = "yonathan-resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
   return (
     <section
       id="home"
@@ -50,15 +40,16 @@ const Hero = () => {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="flex flex-wrap gap-4 justify-center md:justify-start"
               >
-                <button
-                  onClick={handleDownloadCV}
-                  className="px-8 py-4 rounded-2xl bg-secondary text-primary font-semibold 
+                <a href={resume} download="Israel-Resume.pdf">
+                  <button
+                    className="px-8 py-4 rounded-2xl bg-secondary text-primary font-semibold 
                   hover:translate-y-[-4px] hover:shadow-lg hover:shadow-secondary/25
                   transition-all duration-300 flex items-center gap-3 group"
-                >
-                  <FiDownload className="w-5 h-5 group-hover:animate-bounce" />
-                  Download Resume
-                </button>
+                  >
+                    <FiDownload className="w-5 h-5 group-hover:animate-bounce" />
+                    Download Resume
+                  </button>
+                </a>
               </motion.div>
 
               {/* Tech Stack */}
