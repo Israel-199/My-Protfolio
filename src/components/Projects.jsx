@@ -21,7 +21,7 @@ const Projects = () => {
       image: "assets/images/Back.jpg",
       tags: ["React.js", "Tailwind", "Node js", "postgreSQL"],
       github: "https://github.com/Israel-199/Ethio_Backroad",
-      demo: "ethio-backroad.netlify.app",
+      demo: "https://ethio-backroad.onrender.com",
     },
     {
       title: "Portfolio Website",
