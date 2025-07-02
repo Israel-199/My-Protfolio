@@ -14,7 +14,6 @@ const Projects = () => {
       demo: "https://maba-design-platform.onrender.com",
     },
 
-<<<<<<< HEAD
      {
       title: "ET-656 Compassions Platform",
       description:
@@ -25,18 +24,12 @@ const Projects = () => {
       demo: "https://et-656-platform.onrender.com",
     },
 
-=======
->>>>>>> 769469e4298adfd292da21a3aeca48b649dbe5ef
     {
       title: "Ethio-Backroads",
       description:
         "Ethio Backroads is a travel guide app that introduces Ethiopia's hidden towns and cultural gems off the beaten path.",
       image: "assets/images/Back.jpg",
-<<<<<<< HEAD
       tags: ["React.js", "Bootstrap"],
-=======
-      tags: ["React.js", "Tailwind", "Node js", "postgreSQL"],
->>>>>>> 769469e4298adfd292da21a3aeca48b649dbe5ef
       github: "https://github.com/Israel-199/Ethio_Backroad",
       demo: "https://ethio-backroad.onrender.com",
     },
