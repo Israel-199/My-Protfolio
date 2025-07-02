@@ -23,10 +23,10 @@ const Experience = () => {
       location: "Addis Ababa, Ethiopia",
       duration: "January 2025 - Present",
       description: [
-        "I am working on Frontend Development of Ethio-Backroads",
+        "I am working on Development of Ethio-Backroads",
         "Conducting relevant research and data gathering",
       ],
-      skills: ["React", "Bootstrap"],
+      skills: ["React", "Vite", "JSON", "Bootstrap"],
     },
     {
       title: "Mern-Stack Developer",
