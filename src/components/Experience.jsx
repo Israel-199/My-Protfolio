@@ -4,48 +4,70 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   const experiences = [
-    {
-      title: "Maba e-commerce platform",
-      company: "Maba Apparel Design",
-      location: "Addis Ababa, Ethiopia",
-      duration: "March 2025 - Present",
-      description: [
-        "Design the project to support seamless e-commerce activities",
-        "Developed and maintained scalable e-commerce platforms and digital storefronts",
-        "Implemented new features that improved user experience and boosted online sales",
-      ],
-      skills: ["React", "Node Js", "API", "Express", "Web Application"],
-    },
+   {
+  title: "Backend Developer",
+  company: "Afronix Tech Hub",
+  location: "Addis Ababa, Ethiopia",
+  duration: "June 2025 - Aug 2025",
+  description: [
+    "Designed and implemented a RESTful API backend with proper MVC architecture using NestJS.",
+    "Developed robust PostgreSQL schemas to handle complex relationships between customers, employees, services, and assignments.",
+    "Integrated features such as file uploads, status tracking, and scheduled tasks (recurring orders).",
+    "Applied Sequelize ORM for efficient database interactions and query abstraction.",
+    "Implemented best practices in error handling, input validation, and authentication (JWT)."
+  ],
+  skills: [
+    "NestJS",
+    "PostgreSQL",
+    "Sequelize ORM",
+    "RESTful APIs",
+    "MVC Architecture",
+    "JWT Authentication",
+    "Git"
+  ],
+},
+{
+  title: "Full-Stack Developer",
+  company: "Freelancing on Local companies",
+  location: "Addis Ababa, Ethiopia",
+  duration: "Dec 2024 - Apr 2025",
+  description: [
+    "Worked on various freelance projects, including E-commerce websites, Landing Pages and custom web applications.",
+  ],
+  skills: [
+    "React",
+    "Node Js",
+    "Mongo DB",
+    "Express Js",
+    "React-Boostrap",
+    "Javascript",
+    "Git",
+  ],
+},
+{
+  title: "Mern-Stack Developer",
+  company: "Maba Apparel Design",
+  location: "Addis Ababa, Ethiopia",
+  duration: "May 2023 -- Oct 2023",
+  description: [
+    "Design the project to support seamless e-commerce activities",
+    "Developed and maintained scalable e-commerce platforms and digital storefronts",
+    "Implemented new features that improved user experience and boosted online sales",
+  ],
+  skills: ["React", "Node Js", "API", "Express", "Web Application"],
+},
+{
+  title: "Front-End Developer",
+  company: "Ethio-vision Plc",
+  location: "Addis Ababa, Ethiopia",
+  duration: "Mar 2023 – Apr 2023",
+  description: [
+    "I worked on the Frontend Development of Ethio-Backroads.",
+    "Conducted relevant research and data gathering",
+  ],
+  skills: ["React", "Vite", "JSON", "Bootstrap"],
+},
 
-    {
-      title: "Web Application",
-      company: "Ethio-Backroads",
-      location: "Addis Ababa, Ethiopia",
-      duration: "January 2025 - Present",
-      description: [
-        "I am working on Development of Ethio-Backroads",
-        "Conducting relevant research and data gathering",
-      ],
-      skills: ["React", "Vite", "JSON", "Bootstrap"],
-    },
-    {
-      title: "Mern-Stack Developer",
-      company: "Freelancing on Upwork and Local companies",
-      location: "Addis Ababa, Ethiopia",
-      duration: "Dec 2024 - Present",
-      description: [
-        "Worked on various freelance projects, including E-commerce websites, Landing Pages and custom web applications.",
-      ],
-      skills: [
-        "React",
-        "Node Js",
-        "Mongo DB",
-        "Express Js",
-        "React-Boostrap",
-        "Javascript",
-        "Git",
-      ],
-    },
   ];
 
   return (

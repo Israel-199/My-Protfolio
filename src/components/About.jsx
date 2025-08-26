@@ -10,22 +10,35 @@ import {
   SiPostman,
   SiMongodb,
   SiNodedotjs,
+  SiDocker,
+  SiFlutter,
+  SiDart,
+  SiFigma,
+  SiNextdotjs,
 } from "react-icons/si";
+
 import { motion } from "framer-motion";
 
 const About = () => {
-  const skills = [
-    { name: "JavaScript", icon: SiJavascript, color: "text-yellow-400" },
-    { name: "React", icon: SiReact, color: "text-blue-400" },
-    { name: "Node.js", icon: SiNodedotjs, color: "text-green-500" },
-    { name: "Bootstrap", icon: SiBootstrap, color: "text-purple-600" },
-    { name: "Tailwind CSS", icon: SiTailwindcss, color: "text-cyan-400" },
-    { name: "MySQL", icon: SiMysql, color: "text-blue-400" },
-    { name: "PostgreSQL", icon: SiPostgresql, color: "text-blue-400" },
-    { name: "Git", icon: SiGit, color: "text-red-500" },
-    { name: "Postman", icon: SiPostman, color: "text-orange-500" },
-    { name: "MongoDB", icon: SiMongodb, color: "text-green-400" },
-  ];
+const skills = [
+  { name: "React", icon: SiReact, color: "text-blue-400" },
+  { name: "Next.js", icon: SiNextdotjs, color: "text-white" },
+  { name: "JavaScript", icon: SiJavascript, color: "text-yellow-400" },
+  { name: "Node.js", icon: SiNodedotjs, color: "text-green-500" },
+  { name: "Bootstrap", icon: SiBootstrap, color: "text-purple-600" },
+  { name: "Tailwind CSS", icon: SiTailwindcss, color: "text-cyan-400" },
+  { name: "MySQL", icon: SiMysql, color: "text-blue-400" },
+  { name: "PostgreSQL", icon: SiPostgresql, color: "text-blue-400" },
+  { name: "Git", icon: SiGit, color: "text-red-500" },
+  { name: "Postman", icon: SiPostman, color: "text-orange-500" },
+  { name: "MongoDB", icon: SiMongodb, color: "text-green-400" },
+  { name: "Docker", icon: SiDocker, color: "text-blue-600" },
+  { name: "Flutter", icon: SiFlutter, color: "text-blue-700" },
+  { name: "Dart", icon: SiDart, color: "text-blue-500" },
+  { name: "Figma", icon: SiFigma, color: "text-pink-500" }, // ✅ Added Figma
+];
+
+
 
   const socialLinks = [
     {
@@ -119,7 +132,7 @@ const About = () => {
                   <p>
                     Hello👋! My name is Israel Assefa. I'm a senior full-stack
                     developer based in Ethiopia. I work extensively with{" "}
-                    <strong>React.js</strong>, <strong>Node js</strong>,{" "}
+                    <strong>React.js</strong>, <strong>Next.js</strong>,{" "}<strong>Node js</strong>,{" "}
                     <strong>SQL</strong> and <strong>NoSQL databases</strong>,{" "}
                     <strong>Tailwind CSS</strong>, and{" "}
                     <strong>Bootstrap</strong>. My expertise lies in web

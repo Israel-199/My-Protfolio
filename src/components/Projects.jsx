@@ -23,6 +23,15 @@ const Projects = () => {
       github: "https://github.com/Israel-199/ET-656-Platform",
       demo: "https://et-656-platform.onrender.com",
     },
+     {
+     title: "Service Order Management System",
+description: 
+  "Afronix is an intuitive platform that streamlines the entire service order process, enhancing efficiency and providing real-time insights.",
+      image: "assets/images/ServiceOrder.png",
+      tags: ["Node.js", "PostgreSQL", "React.js", "Tailwind CSS", "Next.js"],
+      github: "https://github.com/Israel-199/Service_Order_Management",
+      demo: "#",
+    },
 
     {
       title: "Ethio-Backroads",
@@ -32,6 +41,15 @@ const Projects = () => {
       tags: ["React.js", "Bootstrap"],
       github: "https://github.com/Israel-199/Ethio_Backroad",
       demo: "https://ethio-backroad.onrender.com",
+    },
+    {
+      title: "Movie App",
+      description:
+        "A movie discovery app that allows users to search for and explore movies.",
+      image: "assets/images/movie.png",
+      tags: ["Angular", "Tailwind", "vite", "JSX"],
+      github: "https://github.com/Israel-199/Movies-App",
+      demo: "https://movie199.netlify.app",
     },
     {
       title: "Portfolio Website",

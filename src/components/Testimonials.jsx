@@ -26,9 +26,9 @@ const Testimonials = () => {
       rating: 5,
     },
     {
-      name: "Rediet Tadesse",
-      position: "Software Enginner",
-      image: "assets/images/client2.jpg",
+      name: "Tsega Endashaw",
+      position: "CEO and Founder of Afronix Tech Hub",
+      image: "assets/images/Afro.jpg",
       content:
         "I really enjoy working with you — your teamwork and support make every project smoother and more enjoyable.",
       rating: 5,
