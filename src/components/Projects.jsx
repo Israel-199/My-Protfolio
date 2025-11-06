@@ -5,6 +5,14 @@ import { motion } from "framer-motion";
 const Projects = () => {
   const projects = [
     {
+  title: "Spiritual Book App",
+  description: "A mobile app designed to help users share and discover spiritual books easily, fostering connection and knowledge exchange among readers.",
+  image: "assets/images/spritual.jpg",
+  tags: ["React Native", "Expo", "TypeScript", "Node.js", "Express", "Cloudinary", "JWT Auth", "Tailwind CSS"],
+  github: "#",
+  demo: "https://expo.dev/accounts/isru/projects/Spiritual_Book/builds/90f7d04b-40ff-4814-8847-db832dfde212"
+},
+    {
   title: "Medicine Tracker App",
   description: "A mobile app that helps users manage and track their daily medications with smart reminders. Built using React Native, Expo, and TypeScript on the frontend, integrated with Firebase for authentication, Firestore database, and push notifications. Features include adding, editing, and deleting medicine schedules, local data storage with AsyncStorage, and smooth navigation using Expo Router.",
   image: "assets/images/mob.jpg",
