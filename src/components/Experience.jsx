@@ -4,6 +4,18 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   const experiences = [
+  {
+  title: "Front-End Developer",
+  company: "ShalOps Digitals",
+  location: "Addis Ababa, Ethiopia",
+  duration: "Aug 2025 -- Sept 2025",
+  description: [
+    "Design the project to support seamless fitness activities",
+    "Developed and maintained scalable fitness platforms and digital storefronts",
+    "Implemented new features that improved user experience and boosted online sales",
+  ],
+  skills: ["React", "Tailwindcss","Next Js", "Figma", "Jira", "Slack"],
+},
    {
   title: "Backend Developer",
   company: "Afronix Tech Hub",
@@ -32,7 +44,7 @@ const Experience = () => {
   location: "Addis Ababa, Ethiopia",
   duration: "Dec 2024 - Apr 2025",
   description: [
-    "Worked on various freelance projects, including E-commerce websites, Landing Pages and custom web applications.",
+    "Worked on various freelance projects, including E-commerce websites, Landing Pages and custom web and mobile applications.",
   ],
   skills: [
     "React",
@@ -55,17 +67,6 @@ const Experience = () => {
     "Implemented new features that improved user experience and boosted online sales",
   ],
   skills: ["React", "Node Js", "API", "Express", "Web Application"],
-},
-{
-  title: "Front-End Developer",
-  company: "Ethio-vision Plc",
-  location: "Addis Ababa, Ethiopia",
-  duration: "Mar 2023 – Apr 2023",
-  description: [
-    "I worked on the Frontend Development of Ethio-Backroads.",
-    "Conducted relevant research and data gathering",
-  ],
-  skills: ["React", "Vite", "JSON", "Bootstrap"],
 },
 
   ];

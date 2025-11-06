@@ -5,6 +5,14 @@ import { motion } from "framer-motion";
 const Projects = () => {
   const projects = [
     {
+  title: "Medicine Tracker App",
+  description: "A mobile app that helps users manage and track their daily medications with smart reminders. Built using React Native, Expo, and TypeScript on the frontend, integrated with Firebase for authentication, Firestore database, and push notifications. Features include adding, editing, and deleting medicine schedules, local data storage with AsyncStorage, and smooth navigation using Expo Router.",
+  image: "assets/images/mob.jpg",
+  tags: ["React Native", "Expo", "TypeScript", "Firebase", "AsyncStorage", "Expo Notifications"],
+  github: "#",
+  demo: "https://appdistribution.firebase.google.com/pub/i/b69e6fc64908c20a"
+},
+   {
       title: "Maba Apparel Design E-commerce App",
       description:
         "Maba is a trend-driven apparel e-commerce app offering personalized fashion designs and seamless shopping experiences.",
@@ -23,6 +31,36 @@ const Projects = () => {
       github: "https://github.com/Israel-199/ET-656-Platform",
       demo: "https://et-656-platform.onrender.com",
     },
+    {
+     title: "My Notes Platform",
+     description:
+       "A modern note-taking platform to capture, organize, and access your ideas effortlessly. Built with React.js and TypeScript on the frontend, Express.js and TypeScript on the backend, MongoDB with Mongoose for storage, Tailwind CSS for styling, and Nodemailer for OTP-based authentication.",
+     image: "assets/images/Note.png",
+     tags: ["React.js", "TypeScript", "Express.js", "MongoDB", "Tailwind CSS", "Nodemailer"],
+     github: "https://github.com/Israel-199/My_Note_Platform",
+     demo: "https://my-note-platform-8.onrender.com",
+    },
+   {
+  title: "Dental AI",
+  description:
+    "Dental AI is an AI-powered dental assistant platform that helps patients manage appointments, receive smart oral health recommendations, and connect directly with dentists. It features a modern, responsive interface built with React, TypeScript, and Vite, enhanced by ShadCN/UI, Radix UI, and Framer Motion for a seamless user experience.",
+  image: "assets/images/dent.png",
+  tags: [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "ShadCN/UI",
+    "Framer Motion",
+    "Zod",
+    "Recharts",
+    "React Router",
+    "TanStack Query",
+    "AI Integration"
+  ],
+  github: "https://github.com/Israel-199/frontend-sass-dentalAI",
+  demo: "https://dentalfront.netlify.app/",
+},
      {
      title: "Service Order Management System",
 description: 

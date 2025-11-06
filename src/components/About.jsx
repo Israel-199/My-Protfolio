@@ -22,6 +22,7 @@ import { motion } from "framer-motion";
 const About = () => {
 const skills = [
   { name: "React", icon: SiReact, color: "text-blue-400" },
+  { name: "React Native", icon: SiReact, color: "text-sky-500" }, 
   { name: "Next.js", icon: SiNextdotjs, color: "text-white" },
   { name: "JavaScript", icon: SiJavascript, color: "text-yellow-400" },
   { name: "Node.js", icon: SiNodedotjs, color: "text-green-500" },
@@ -35,10 +36,8 @@ const skills = [
   { name: "Docker", icon: SiDocker, color: "text-blue-600" },
   { name: "Flutter", icon: SiFlutter, color: "text-blue-700" },
   { name: "Dart", icon: SiDart, color: "text-blue-500" },
-  { name: "Figma", icon: SiFigma, color: "text-pink-500" }, // ✅ Added Figma
+  { name: "Figma", icon: SiFigma, color: "text-pink-500" },
 ];
-
-
 
   const socialLinks = [
     {
@@ -82,12 +81,12 @@ const skills = [
                     />
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-center mb-2">
+                 <h3 className="text-xl font-bold text-center mb-2">
                   Israel Assefa
                 </h3>
                 <p className="text-textSecondary text-center mb-4">
                   Senior Full Stack Developer
-                </p>
+                </p>               
                 <div className="flex justify-center gap-4 mb-6">
                   {socialLinks.map((social, index) => (
                     <a

@@ -30,7 +30,7 @@ const Hero = () => {
                   Hey, I'm <span className="text-secondary">Israel</span>
                 </h1>
                 <p className="text-textSecondary text-lg md:text-xl max-w-xl leading-relaxed">
-                  I'm full-stack developer with 2+ years of experiences.
+                  I'm full-stack developer with 3+ years of experiences.
                 </p>
               </motion.div>
 
@@ -61,7 +61,7 @@ const Hero = () => {
               >
                 <p className="text-textSecondary text-sm mb-4">Specialized </p>
                 <div className="flex flex-wrap gap-3 justify-center md:justify-start">
-                  {["React Js", "Node Js", "Bootstrap", "Tailwind","PostgreSQL","MongoDB","Flutter"].map(
+                  {["React Js", "Node Js", "Bootstrap", "Tailwind","PostgreSQL","MongoDB","React Native"].map(
                     (tech, index) => (
                       <span
                         key={tech}
