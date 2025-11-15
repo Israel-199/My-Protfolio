@@ -5,6 +5,14 @@ import { motion } from "framer-motion";
 const Projects = () => {
   const projects = [
     {
+  title: "Dent AI",
+  description: "An AI-powered dental platform that enables patients to book appointments in a 3-step flow (Dentist → Service & Time → Confirm), receive real-time updates, interact with an AI voice assistant, and manage subscriptions seamlessly. Built using Next.js, TypeScript, Tailwind CSS, and Shadcn UI on the frontend, with Clerk for authentication and PostgreSQL + Prisma ORM for backend data management. Includes features like email verification, automatic invoices, admin dashboard, and smart subscription upgrades.",
+  image: "assets/images/dentAI.png",
+  tags: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn UI", "Clerk", "PostgreSQL", "Prisma ORM", "AI"],
+  github: "https://github.com/Israel-199/DentAI",
+  demo: "https://dentai-g5j9t.sevalla.app/"
+},
+    {
   title: "Spiritual Book App",
   description: "A mobile app designed to help users share and discover spiritual books easily, fostering connection and knowledge exchange among readers.",
   image: "assets/images/spritual.jpg",
