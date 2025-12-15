@@ -12,6 +12,14 @@ const Projects = () => {
   github: "https://github.com/Israel-199/DentAI",
   demo: "https://dentai-g5j9t.sevalla.app/"
 },
+{
+  "title": "Deluxe Furniture",
+  "description": "A modern, high-performance furniture e-commerce website with fully responsive layouts, interactive product pages, smooth animations, and SEO optimization. Built using Next.js (App Router), TypeScript, Tailwind CSS, Framer Motion, and React Icons. Features include dynamic showroom data, reusable UI components, image optimization, scroll effects, and a premium brand-consistent design. Enhancements led to ~10% increase in user engagement and company revenue.",
+  "image": "assets/images/deluxeFurniture.png",
+  "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "React Icons", "YARL Lightbox", "SEO", "UI/UX"],
+  "github": "https://github.com/Israel-199/Furniture",
+  "demo": "https://furniture-wueo.vercel.app/"
+},
     {
   title: "Spiritual Book App",
   description: "A mobile app designed to help users share and discover spiritual books easily, fostering connection and knowledge exchange among readers.",
